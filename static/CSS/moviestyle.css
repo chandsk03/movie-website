@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+
+  h1 {
+    text-align: center;
+    color: #333333;
+  }
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+
+  .video iframe {
+    width: 640px;
+    height: 360px;
+    border: none;
+  }
+
+  .description {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+  }
+
+  .description p {
+    margin: 0;
+    line-height: 1.5;
+    text-align: center;
+  }
